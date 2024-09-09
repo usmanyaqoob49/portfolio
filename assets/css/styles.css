@@ -71,6 +71,7 @@
   overflow-x: auto; /* Add horizontal scroll if needed */
   gap: 20px; /* Space between items */
   padding: 20px; /* Add some padding */
+  width: 100vw; /* Ensure it takes full viewport width */
 }
 
 .project-item {
@@ -80,11 +81,14 @@
   padding: 20px; /* Add padding inside items */
   background-color: #fff; /* Optional: add background color */
   border-radius: 8px; /* Optional: add rounded corners */
+  min-height: 200px; /* Adjust height as needed */
 }
 
 .project-item h2 {
   font-size: 1.2em; /* Adjust font size if needed */
+  text-align: center; /* Center align text */
 }
+
 
 
 
