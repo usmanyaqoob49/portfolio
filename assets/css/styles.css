@@ -31,6 +31,17 @@
 
 
 
+.about__list {
+  list-style-type: disc; /* Bullet points */
+  margin-left: 20px; /* Indentation */
+}
+
+.about__list li {
+  margin-bottom: 10px; /* Space between items */
+}
+
+
+
 /* ------------------------------------------------------- */
 
 /*===== Colores =====*/
